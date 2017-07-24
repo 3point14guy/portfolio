@@ -49,11 +49,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                      <a type="button" class="btn" data-toggle="modal" data-target="#about-me">About</a>
                     </li>
 
                     <li>
-                        <a href="#contact">Contact</a>
+                      <a type="button" class="btn" data-toggle="modal" data-target="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,38 @@
         </div>
         <!-- /.container -->
     </nav>
-
+    <!-- Modal -->
+<div id="about-me" class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+          <div class="modal-body">
+            <p>
+              I’ve always had the drive to follow my passions which has made me fortunate enough to do many things with my life, from working at public aquariums diving with sharks and feeding pirañas, to teaching English in a high school in Thailand, to helping streamline processes for the nation’s largest wireless carrier. Through experiences like these, there has emerged a unifying theme of solving problems to help others in two major ways; achieving their goals and being more productive. I came to a point where I realized I needed to level-up my skill set in order to continue helping others in a meaningful way. I am eager to take my skills to the next level by upgrading from my standard problem solving toolbox into a great big workshop powered by coding. My goal is to make myself a vital asset to work teams by improving process and creating novel solutions through coding.
+            </p>
+          </div>
+        </div>
+      </div>
+</div>
+<div id="contact" class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+          <div class="modal-body">
+          <h4>phone:   828.380.3550</h4>
+          <h4>email:   sunshine.farm.nc@gmail.com</h4>
+          </div>
+        </div>
+      </div>
+</div>
 
     <!-- Header -->
     <a name="about"></a>
@@ -76,7 +107,7 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-fw"></i> <span class="network-name">Resume</span></a>
+                                <a href="resume.pdf" class="btn btn-default btn-lg"><i class="fa fa-fw"></i> <span class="network-name">Resume</span></a>
                             </li>
                             <li>
                                 <a href="https://github.com/3point14guy" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
@@ -97,7 +128,7 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
+	<a  name="projects"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -106,7 +137,7 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">TIC TAC TOE:<br>A Javascript Project</h2>
-                    <p class="lead">This is a single page application (SPA) that accesses an API for user credentials and storing game statistics.  Technologies in this project include HTML, CSS, Bootstrap, Javascript, JQuery, JSON, and AJAX.</p>
+                    <p class="lead">This is a single page application (SPA) that accesses an API for user credentials and storing game statistics.  Technologies in this project include HTML, CSS, Bootstrap, Javascript, JQuery, JSON, and AJAX.<a href="https://3point14guy.github.io/Tic-tac-toe-project/"> See it here. </a>Login with: "mom@mom.com" as the user and "mom" as the password</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/phones.png" alt="iphones">
