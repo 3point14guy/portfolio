@@ -163,6 +163,39 @@ h6 {
     }
 }
 
+.atom {
+  height: 204px;
+  width: 240px;
+}
+
+.card {
+  border: 1px solid gray;
+  height: 400px;
+  width: 242px;
+}
+
+.card-button {
+  margin-left: 10px;
+}
+
+.card-group {
+  height: 500px;
+  margin-left: 55px;
+  margin-top: 75px;
+  position: center;
+  width: auto;
+}
+
+.card-title {
+  margin: 10px;
+  text-align: left;
+}
+
+.card-text {
+  margin: 20px;
+  text-align: left;
+}
+
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
