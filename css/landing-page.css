@@ -143,6 +143,9 @@ h6 {
         float: left;
         margin-top: 15px;
     }
+    /*card-group {
+      float: right;
+    }*/
 }
 
 @media(max-width:767px) {
@@ -151,6 +154,11 @@ h6 {
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
     }
+
+    /*card-group {
+      margin-left: auto;
+      float: none;
+    }*/
 
     ul.banner-social-buttons > li {
         display: block;
@@ -170,6 +178,7 @@ h6 {
 
 .card {
   border: 1px solid gray;
+  background-color: #f8f8f8;
   height: 400px;
   width: 242px;
 }
@@ -180,10 +189,8 @@ h6 {
 
 .card-group {
   height: 500px;
-  margin-left: 55px;
   margin-top: 75px;
-  position: center;
-  width: auto;
+  width: 100%;
 }
 
 .card-title {
