@@ -7,6 +7,28 @@
   font-size: 100px;
 }
 
+#my-carousel {
+  margin-top: 25px;
+}
+.carousel-control {
+  width: 11%;
+}
+
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(33, 73, 134, 0.43) 0,rgba(0,0,0,.0001) 100%);
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0, rgba(33, 73, 134, 0.43) 100%);
+}
+
+.carousel-indicators li {
+  border: 2px solid #757171;
+}
+
+.carousel-indicators .active {
+  background-color: #757171;
+}
 body,
 html {
     width: 100%;
@@ -38,14 +60,17 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/coding.jpg) no-repeat center center;
     background-size: cover;
+    opacity: .8;
+    height: 500px;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 450px;
 }
 
 .intro-message > h1 {
@@ -98,6 +123,8 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .content-section-b {
@@ -119,8 +146,9 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/code3.jpg) no-repeat center center;
     background-size: cover;
+    opacity: .8;
 }
 
 .banner h2 {
@@ -138,15 +166,25 @@ h6 {
     margin-top: 0;
 }
 
+.thing {
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 2%;
+  display:inline-grid;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
-    /*card-group {
-      float: right;
-    }*/
+    /* .card-group {
+      margin-left: auto;
+     float: right;
+    } */
 }
+
+
 
 @media(max-width:767px) {
     .banner h2 {
@@ -155,10 +193,10 @@ h6 {
         font-size: 3em;
     }
 
-    /*card-group {
+    /* .card-group {
       margin-left: auto;
       float: none;
-    }*/
+    } */
 
     ul.banner-social-buttons > li {
         display: block;
@@ -181,6 +219,8 @@ h6 {
   background-color: #f8f8f8;
   height: 400px;
   width: 242px;
+  /* margin-top: 20px; */
+  margin-bottom: 50px;
 }
 
 .card-button {
@@ -190,7 +230,10 @@ h6 {
 .card-group {
   height: 500px;
   margin-top: 75px;
+  margin-left: 10%;
+  margin-right: 10%;
   width: 100%;
+  overflow-y: scroll;
 }
 
 .card-title {
@@ -204,7 +247,7 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0 15px 0;
     background-color: #f8f8f8;
 }
 
