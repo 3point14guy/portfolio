@@ -7,6 +7,7 @@
   font-size: 100px;
 }
 
+
 .carousel-row {
   height:500px;
 }
@@ -33,6 +34,11 @@
 .carousel-indicators .active {
   background-color: #757171;
 }
+
+body {
+  background-color: #f8f8f8;
+}
+
 body,
 html {
     width: 100%;
@@ -50,6 +56,9 @@ h6 {
     font-weight: 700;
 }
 
+h3 {
+  font-size: 3em;
+}
 .topnav {
     font-size: 14px;
 }
@@ -57,6 +66,7 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    margin-right: 30px;
 }
 
 .intro-header {
@@ -84,7 +94,7 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 8em;
 }
 
 .intro-divider {
@@ -142,7 +152,7 @@ h6 {
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin: 35px 0 30px 0;
 }
 
 .section-heading-spacer {
@@ -223,6 +233,7 @@ h6 {
 .atom {
   height: 204px;
   width: 273px;
+  border-bottom: 1px solid gray;
 }
 
 .card {
@@ -232,6 +243,14 @@ h6 {
   width: 275px;
   /* margin-top: 20px; */
   margin-bottom: 50px;
+}
+
+.atom:hover {
+  opacity: .6;
+}
+
+.carousel-img:hover {
+  opacity: .8;
 }
 
 .card-button {
