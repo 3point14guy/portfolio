@@ -241,6 +241,7 @@ h6 {
   width: 275px;
   /* margin-top: 20px; */
   margin-bottom: 50px;
+  box-shadow:10px 10px 50px 1px #908165;
 }
 
 .atom:hover {
@@ -258,6 +259,9 @@ h6 {
 .card-container {
   /* height: 500px; */
   margin: 75px 0;
+  padding: 50px 0;
+  background: url(../img/wireframe_15percent_beige.png) no-repeat center;
+  background-size: cover;
   /* margin-left: 10%;
   margin-right: 10%;
   width: 100%; */
