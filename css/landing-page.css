@@ -256,8 +256,20 @@ h6 {
   opacity: .8;
 }
 
-.card-button {
+.card-btn {
   margin-left: 10px;
+}
+
+.card-btn-left {
+  margin-left: 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+.card-btn-right {
+  margin-right: 10px;
+  position: relative;
+  bottom: 20px;
 }
 
 .card-container {
