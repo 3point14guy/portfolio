@@ -501,22 +501,24 @@
         <!-- </div> -->
       </div>
     </div>
-    <!-- <div class="thing">
-      <div class="card w-50 card-outline-secondary mb-3">
+    <div class="thing">
+      <div class="card w-50 card-outline-secondary mb-3 wireframe-card">
 
           <div class="card card-inverse">
-            <img class="card-img atom" src="img/ADN.png" alt="Asheville Developers Netowrk">
+            <img class="card-img atom" src="img/marvel_screen_shot.png" alt="Asheville Developers Netowrk">
             <div class="card-img-overlay">
               <br/>
               <h4 class="card-title">Wireframes & Prototyping</h4>
-              <p class="card-text">Projects using Balsamiq, Sketch or Marvel.</p>
-              <a href="https://www.meetup.com/Asheville-Developers-Network/" target=blank class="btn btn-default btn-sm card-button"><span class="network-name">Balsamiq Demo</span></a><br><br>
-              <a href="https://www.meetup.com/Asheville-Developers-Network/" target=blank class="btn btn-default btn-sm card-button"><span class="network-name">Sketch Demo</span></a><br><br>
-              <a href="https://www.meetup.com/Asheville-Developers-Network/" target=blank class="btn btn-default btn-sm card-button"><span class="network-name">Marvel Demo</span></a>
+              <p class="card-text">See demos in Balsamiq, Sketch & Marvel.</p>
+              <div class="wire-btn">
+                <p><a href="#" class="btn btn-default btn-sm" data-toggle="modal" data-target="#sketch"><span class="network-name">Sketch</span></a>
+                <a href="#" class="btn btn-default btn-sm" data-toggle="modal" data-target="#marvel"><span class="network-name">Marvel</span></a></p>
+                <p><a href="#" class="btn btn-default btn-sm" data-toggle="modal" data-target="#balsamiq"><span class="network-name">Balsamiq</span></a></p>
+              </div>
             </div>
           </div>
       </div>
-    </div> -->
+    </div>
     <div class="thing">
       <div class="card w-50 card-outline-secondary mb-3">
         <!-- <div class="card-block"> -->
@@ -534,9 +536,81 @@
       </div>
     </div>
 </div>
-        <!-- <iframe src="https://marvelapp.com/8c97ich?emb=1&iosapp=false&frameless=false" width="452" height="901" allowTransparency="true" frameborder="0"></iframe> -->
 
 
+<div id="balsamiq" class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+          <h4 class="modal-title" id="myModalLabel">Made with Balsamiq</h4>
+        </div>
+      <div class="modal-body">
+        <img src="img/groovie_movie_wireframe.jpg" alt="groovie movie wireframe" >
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="marvel" class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+          <h4 class="modal-title" id="myModalLabel">Made with Marvel</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/15ISrLpegB8"></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <p>Watch the demo above or interact with it yourself...
+        <a href="https://www.meetup.com/Asheville-Developers-Network/" target=blank class="btn btn-default btn-sm card-btn" data-dismiss="modal"  data-toggle="modal" data-target="#marvel-demo"><span class="network-name">Interactive Demo</span></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sketch" class="modal fade">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+        <h4 class="modal-title" id="myModalLabel">Made with Sketch</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/10jSVNGi1qI"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="marvel-demo" class="modal fade">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+        <h4 class="modal-title" id="myModalLabel">Interactive Demo</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe src="https://marvelapp.com/8c97ich?emb=1&iosapp=false&frameless=false" width="225" height="450" allowTransparency="true" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <div class="banner">
 

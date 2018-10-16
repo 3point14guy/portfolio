@@ -293,6 +293,22 @@ h6 {
   opacity: .8;
 }
 
+.wireframe-card a {
+  margin: 2px 10px;
+}
+
+.wireframe-card p a {
+  text-align: center;
+}
+
+.wireframe-card h4 {
+  margin-top: 0;
+}
+
+.wireframe-card p {
+  margin: 10px 20px;
+}
+
 .card-btn {
   margin-left: 10px;
 }
